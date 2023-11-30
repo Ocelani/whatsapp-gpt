@@ -10,13 +10,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	// SQLite3-Datenbanktreiber importieren
 	_ "github.com/mattn/go-sqlite3"
 
-	// Paket zum Generieren von QR-Codes importieren
 	"github.com/mdp/qrterminal/v3"
 
-	// WhatsApp-Paket importieren
 	"go.mau.fi/whatsmeow"
 	waProto "go.mau.fi/whatsmeow/binary/proto"
 	"go.mau.fi/whatsmeow/store/sqlstore"

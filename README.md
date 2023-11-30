@@ -1,5 +1,5 @@
 # Whatsapp-GPT
-The Whatsapp GPT client is a tool that uses the playwright library instead of the OpenAI API. This allows users to access the normal functionality of GPT-3 without the need for a premium account or additional costs. With this client, users can generate text in natural language by simply sending a message to a Whatsapp number. The client will then use GPT-3 to generate a response based on the message received. This tool is useful for anyone who needs to generate text quickly and efficiently without the hassle of setting up an API account or paying additional fees.
+The Whatsapp GPT client is a tool that uses the playwright library instead of the OpenAI API. This allows users to access the normal functionality of GPT-3 without the need for a premium account or additional costs. With this client, users can generate text in natural language by simply sending a message to a Whatsapp number. The client will then use GPT-3 to generate a response based on the message received. This tool is useful for anyone who needs to generate text quickly and efficiently without the hassle of setting up an API account or paying additional fees.
 
 ## Install
 This installation guide assumes that you already have ***python and Go environment setup in your machine***. 
@@ -58,7 +58,7 @@ If you encounter any error messages, refer to the documentation or seek help fro
 
 ## Todo
 - Automatic multichat support
-- Automatic profile creation (behavioral instructions for ChatGPT)
+- Automatic profile creation (behavioral instructions for ChatGPT)
 - Check WhatsApp Business Account compatiblity
 - Whitelist Sender
 - Resolve 500 Error after 2 hours

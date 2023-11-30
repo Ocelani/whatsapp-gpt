@@ -39,17 +39,17 @@ def is_logged_in():
         return False
 
 def send_message(message):
-    # Send the message
     box = get_input_box()
     box.click()
     box.fill(message)
     box.press("Enter")
+    time.sleep(1)
     while PAGE.query_selector(".result-streaming") is not None:
         time.sleep(0.1)
 
 def get_last_message():
     """Get the latest message"""
-    page_elements = PAGE.query_selector_all("div.group.w-full")
+    page_elements = PAGE.query_selector_all("div.markdown.prose.w-full.break-words")
     last_element = page_elements[-1]
     return last_element.inner_text()
 
